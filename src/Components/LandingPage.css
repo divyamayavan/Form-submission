@@ -1,0 +1,145 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #673ab7;
+    color: #333;
+  }
+  
+  /* Header section */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 1.2rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .logo span {
+    color: #a300d6;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #673ab7;
+  }
+  
+  .social-icons img {
+    width: 20px;
+    margin-left: 1rem;
+  }
+  
+  /* Hero section */
+  .hero {
+    text-align: center;
+    background: white;
+    padding: 4rem 2rem;
+    border-radius: 20px;
+    position: relative;
+    margin: 60px;
+  }
+  
+  .subtitle {
+    color: #fff;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  
+  .category {
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .main-title {
+    font-size: 2.8rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    color: #222;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    padding: 0.8rem 2rem;
+    background: #a300d6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #8700b3;
+  }
+
+  form {
+   max-width: 600px;
+   margin: 50px auto;
+   padding: 30px;
+   border-radius: 10px;
+   background-color: #f4f4f4;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   font-family: Arial, Helvetica, sans-serif;
+  }
+
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .reset{
+    margin-top: 10px;
+    background-color: #f44336;
+  }
